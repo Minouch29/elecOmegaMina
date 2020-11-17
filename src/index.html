@@ -6,6 +6,7 @@
     <title>elecOmega</title>
 
     <link href="./assets/style.css" rel="stylesheet">
+    <link href="./assets/styleheader.css" rel="stylesheet">
 
     <!--load icomostyle-->
     <link href="./assets/styleicone.css" rel="stylesheet">
@@ -16,7 +17,27 @@
 <body>
     <main>
         <header>
-            <h1>ElecOmega</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Accueil</a></li>
+                    <li class="dropMenu">
+                        Prestations
+                        <!--sous-menu-->
+                        <ul class="subMenu">
+                            <li><a href="#">Installations</a></li>
+                            <li><a href="#">Dépannage</a></li>
+                            <li><a href="#">Maintenance</a></li>
+                        </ul>
+                    </li>
+                    <li><img id="logo" src="../images/logoElecOmega.png" alt="Logo ElecOmega"></li>
+                    <li><a href="#">Réservations</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="title"> 
+                <h1>Elec </h1>
+                <h2>électricité et Domotique</h2>
+            </div>
         </header>
     </main>
 
@@ -61,37 +82,23 @@
 
                 <ul class="justify">
                     <li>
-                        <p>Plan de site </p>
+                    <li>
+                        <a href="accueil.html"><span class="icon-circle-right"></span>Accueil</a>
                     </li>
                     <li>
-
-                        <a herf="#"> <span class="icon-circle-right"></span>Accueil </a>
-
+                        <a href="prestations.html"><span class="icon-circle-right"></span>Prestations</a>
+                    </li>
+                    <a href="reservation.html"><span class="icon-circle-right"></span>Réservation</a>
                     </li>
                     <li>
-
-                        <a herf="#"><span class="icon-circle-right"></span> Prestations </a>
+                        <a href="contact.html"><span class="icon-circle-right"></span>Contact</a>
                     </li>
                     <li>
-
-                        <a herf="#"><span class="icon-circle-right"></span> Réservations </a>
-                    </li>
-                    <li>
-
-                        <a herf="#"><span class="icon-circle-right"></span> Contact </a>
-                    </li>
-                    <li>
-
-                        <a herf="https://openclassrooms.com"> Mentions légales </a>
+                        <a href="mentionLegales.html"><span class="icon-circle-right"></span>Mention Légales</a>
                     </li>
                 </ul>
 
-
-
-
-
             </div>
-
             <div class="dsplay">
 
                 <ul>
@@ -112,8 +119,6 @@
                     </li>
 
                 </ul>
-
-            </div>
 
 
 
