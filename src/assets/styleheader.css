@@ -83,7 +83,7 @@ nav > ul li:hover .subMenu{
     font-size: 35px;
     text-transform: uppercase;
     color: white;
-    background: url("../images/fondTitreElecOmega.jpg"), no-repeat;
+    background: url("../images/bgd.jpg"), no-repeat;
     background-size: 100%;
 }
 

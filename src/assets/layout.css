@@ -1,0 +1,87 @@
+﻿/**
+* Layout grid driven
+*   Grid 12 column
+**/
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    column-gap: .5em;
+    row-gap: .5em;
+}
+
+.col-12 {
+    grid-column: span 12; /** Extends throw 12 columns **/
+}
+.col-11 {
+    grid-column: span 11;
+}
+.col-10 {
+    grid-column: span 10;
+}
+.col-9 {
+    grid-column: span 9;
+}
+.col-8 {
+    grid-column: span 8;
+}
+.col-7 {
+    grid-column: span 7;
+}
+.col-6 {
+    grid-column: span 6;
+}
+.col-5 {
+    grid-column: span 5;
+}
+.col-4 {
+    grid-column: span 4;
+}
+.col-3 {
+    grid-column: span 3;
+}
+.col-2 {
+    grid-column: span 2;
+}
+.col-1 {
+    grid-column: span 1;
+}
+
+@media screen and (min-width: 75em) {
+    .col-xl-12 {
+        grid-column: span 12; /** Extends throw 12 columns **/
+    }
+    .col-xl-11 {
+        grid-column: span 11;
+    }
+    .col-xl-10 {
+        grid-column: span 10;
+    }
+    .col-xl-9 {
+        grid-column: span 9;
+    }
+    .col-xl-8 {
+        grid-column: span 8;
+    }
+    .col-xl-7 {
+        grid-column: span 7;
+    }
+    .col-xl-6 {
+        grid-column: span 6;
+    }
+    .col-xl-5 {
+        grid-column: span 5;
+    }
+    .col-xl-4 {
+        grid-column: span 4;
+    }
+    .col-xl-3 {
+        grid-column: span 3;
+    }
+    .col-xl-2 {
+        grid-column: span 2;
+    }
+    .col-xl-1 {
+        grid-column: span 1;
+    }    
+}
