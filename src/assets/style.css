@@ -4,12 +4,14 @@
 
 
 footer{
-    background-color:#e5e7e9;
+    
     margin-top:20px;
     margin-bottom: 20px;
+    color:#FFCC00;
+    background-color:black;
+
     
 }
-
 
 
 li{
@@ -20,9 +22,12 @@ li{
 }
 
 a{
-    color: #FFCC00;
+    color:#FFCC00;
     text-decoration: none;
 }
+
+
+
 
 
 /**classe*/
@@ -38,6 +43,10 @@ span[class^="icon-"] {
 
 .darkcolor{
     color:black;
+}
+
+.yellow{
+    color:#FFCC00;
 }
 
 .patron{
@@ -66,6 +75,20 @@ span[class^="icon-"] {
  .copyright{
      text-align: center;
      background-color:#f4f6f6;
+     color:black;
 
  }
  
+/**Règles de médias a faire  */
+@media screen and (max-width: 1024px)
+{
+    p
+    {
+        
+       
+        font-size: 1.2em;
+        
+    }
+}
+
+  

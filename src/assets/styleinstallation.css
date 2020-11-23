@@ -1,10 +1,15 @@
 
-/*
-*{
-  margin: 0px;
-  font-family: Arial, Helvetica, sans-serif;
+body
+{
+        text-align: center;
 }
-*/
+
+#global
+{
+        background-color: #f00;
+        margin: 0 auto;
+        width: 200px;
+}
 
 section{
   margin-left:10%;
@@ -15,13 +20,13 @@ img {
   border-radius: 10px;
   padding: 20px;
   width: 200px;
-  height: 150px;
-  
+  height: 150px; 
 }
 
 img:hover {
   transform: scaleX(-1);
 }
+
 
 
 #photos > p {
@@ -44,23 +49,6 @@ img:hover {
 .center{
   text-align: center;
 }
-/*
-.grid-container {
-  display: grid;
-  grid-template-columns: 200px repeat(auto-fill, 100px) 300px;
-  
-}
-
-.grid-container > div {
-  text-align: center;
-  padding: 20px 0;
-  font-size: 30px;
-  
-
-}
-*/
-
-
 
 
 .description{
@@ -69,7 +57,10 @@ img:hover {
   border-radius: 10px;
   color:white;
   width: 60%;
-  height:75px;
+  height:100px;
+  margin-left: auto;
 
 }
+
+
 
