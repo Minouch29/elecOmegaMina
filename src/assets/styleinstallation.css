@@ -1,19 +1,16 @@
 
 body
 {
-        text-align: center;
+  text-align: center;
 }
 
 #global
 {
-        background-color: #f00;
-        margin: 0 auto;
-        width: 200px;
+  margin: 0 auto;
+  width: 200px;
 }
 
-section{
-  margin-left:10%;
-}
+
 
 img {
   border:2px #FFCC00 outset ;
@@ -27,8 +24,6 @@ img:hover {
   transform: scaleX(-1);
 }
 
-
-
 #photos > p {
   text-align: center;
   font-size: 2em;
@@ -40,12 +35,12 @@ img:hover {
 }
 
 #photos > div {
-    display: inline-block;
-    position: relative;
-    margin-top:30px;
-    margin-left:40px;
-  
+  display: inline-block;
+  position: relative;
+  margin-top:30px;
+  margin-left:40px;
 }
+
 .center{
   text-align: center;
 }
@@ -61,6 +56,33 @@ img:hover {
   margin-left: auto;
 
 }
+/**
+medias querys*/
+@media screen and (max-width:576px){
+  .title{
+    font-size: 20px;
+  }
+  img {
+    border:2px #FFCC00 outset ;
+    border-radius: 10px;
+    padding: 20px;
+    width: 30px;
+    height: 30px; 
+  } 
+  #photos{
+    display:inline;
+  }
+ 
+  .description{
+  height:auto;
+  width: 75%;
+  font-size:14px; 
+}
+
+}
+  
+
+
 
 
 

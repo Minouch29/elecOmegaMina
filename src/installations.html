@@ -3,18 +3,15 @@
 
 <head>
     <meta charset="utf-8">
-    <title>ElecOmegaInstallation</title>
+    <title>elecOmega</title>
 
     <link href="./assets/style.css" rel="stylesheet">
     <link href="./assets/styleheader.css" rel="stylesheet">
     <link href="./assets/styleinstallation.css" rel="stylesheet">
-    <link href="./assets/layout.css" rel="stylesheet">
+
     <!--load icomostyle-->
     <link href="./assets/styleicone.css" rel="stylesheet">
 
-    <!--règles de médias-->
-    <meta name="viewport"
-        content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
 
 </head>
 
@@ -38,7 +35,7 @@
                     <li><a href="#">Contact</a></li>
                 </ul>
             </nav>
-            <div class="title"> 
+            <div class="title">
                 <h1>Elec </h1>
                 <h2>électricité et Domotique</h2>
             </div>
@@ -47,22 +44,29 @@
         <section id="photos">
 
             <p>Installations éléctriques</p>
-
             <div>
-                <img src="./images/elec1.jpg" alt="electricien" />
-            </div>
+                <div>
+                    <img src="./images/elec1.jpg" alt="electricien" />
+                </div>
+    
+                <div>
+                    <img src="./images/elec2.jpg" alt="fusible" />
+                </div>
+    
 
-            <div>
-                <img src="./images/elec2.jpg" alt="fusible" />
             </div>
+            <div>
+                <div>
+                    <img src="./images/elec3.jpg" alt="cable" />
+                </div>
+    
+                <div>
+                    <img src="./images/elec4.jpg" alt="cable" />
+                </div>
 
-            <div>
-                <img src="./images/elec3.jpg" alt="cable" />
             </div>
-
-            <div>
-                <img src="./images/elec4.jpg" alt="cable" />
-            </div>
+           
+           
 
             <div class="description">
                 <p>
@@ -81,21 +85,29 @@
             <p>Installations Portails</p>
 
             <div>
-                <img src="./images/portail1.jpg" alt=" portail vert" />
-            </div>
+                <div>
+                    <img src="./images/portail1.jpg" alt=" portail vert" />
+                </div>
+    
+                <div>
+                    <img src="./images/portail2.jpg" alt="portail gris" />
+                </div>
 
+            </div>
+            
             <div>
-                <img src="./images/portail2.jpg" alt="portail gris" />
+                <div>
+                    <img src="./images/portail3.jpg" alt="portail en bois vernis" />
+                </div>
+    
+                <div>
+                    <img src="./images/portail4.jpg" alt="portail bleu marine et son portillon" />
+                </div>
+    
+
             </div>
 
-            <div>
-                <img src="./images/portail3.jpg" alt="portail en bois vernis" />
-            </div>
-
-            <div>
-                <img src="./images/portail4.jpg" alt="portail bleu marine et son portillon" />
-            </div>
-
+           
             <div class="description">
                 <p>
                     ElecOmega vous accompagne dans l'installation de votre portail<br>
@@ -110,23 +122,29 @@
         <section id="photos">
 
             <p>Motorisation</p>
-
             <div>
-                <img src="./images/motorisation1.jpg" alt="petit potail équipé" />
+                <div>
+                    <img src="./images/motorisation1.jpg" alt="petit potail équipé" />
+                </div>
+    
+                <div>
+                    <img src="./images/motorisation2.jpg" alt="kit motorisation" />
+                </div>
+
             </div>
 
             <div>
-                <img src="./images/motorisation2.jpg" alt="kit motorisation" />
-            </div>
+                <div>
+                    <img src="./images/motorisation3.jpg" alt="portail semi-ouvert" />
+                </div>
+    
+                <div>
+                    <img src="./images/motorisation4.jpg" alt="moteur" />
+                </div>
+    
 
-            <div>
-                <img src="./images/motorisation3.jpg" alt="portail semi-ouvert" />
             </div>
-
-            <div>
-                <img src="./images/motorisation4.jpg" alt="moteur" />
-            </div>
-
+            
             <div class="description">
                 <p>
                     Afin de vous accompagner au mieux,<br>
@@ -141,13 +159,17 @@
 
     </main>
 
+    
+
 
     <footer>
-        <section>
+        <section class="container">
 
             <div class="dsplay">
-                <img class="logo" src="images/logo.jpeg" alt="logo">
+                <img class="logo" src="./images/logo.jpeg" alt="logo">
             </div>
+
+
 
             <div class="dsplay">
 
@@ -160,13 +182,13 @@
                         <p>INFORMATIONS</p>
                     </li>
                     <li>
-                        <a class="darkcolor" href="contact@elec-ohm.fr" title="mailclient">
+                        <a href="contact@elec-ohm.fr" title="mailclient">
                             <span class="icon-mail2">contact@elec-ohm.fr</span>
                         </a>
 
-                    </li>
+                    </li><br>
                     <li>
-                        <a class="darkcolor" href="07-81-13-33-94" title="telclient">
+                        <a href="07-81-13-33-94" title="telclient">
                             <span class="icon-phone">07-81-13-33-94</span>
                         </a>
 
@@ -179,27 +201,28 @@
             <div class="dsplay">
 
                 <ul class="justify">
+                
                     
                     <li>
                         <a href="accueil.html"><span class="icon-circle-right"></span>Accueil</a>
                     </li>
 
-                    <li>
+                    <select>
                        <p><span class="icon-circle-right"></span>Prestations</p> 
-                       <ul>
-                           <li>
+                       
+                           <option>
                             <a href="installations.html"><span class="icon-circle-right"></span> Installations</a>
-                           </li>
-                           <li>
+                           </option>
+                           <option>
                             <a href="maintenance.html"><span class="icon-circle-right"></span> Maintenance</a>
-                           </li>
-                           <li>
+                           </option>
+                           <option>
                             <a href="depannage.html"><span class="icon-circle-right"></span> Dépannage</a>
-                           </li>
+                           </option>
                            
                          
-                       </ul>
-                    </li>
+                       
+                    </select>
 
                     <li>
                         <a href="reservation.html"><span class="icon-circle-right"></span>Réservation</a>
@@ -216,22 +239,19 @@
                 </ul>
 
             </div>
-
             <div class="dsplay">
 
                 <ul>
+
                     <li>
-                        <p>suivez-nous!!</p>
+                        <p>suivez-nous !!</p>
                     </li>
 
                     <li class="dsplay">
                         <a href="#" title="lien facebook">
                             <span class="icon-facebook"></span>
                         </a>
-
                     </li>
-
-                   
 
                 </ul>
 
@@ -242,6 +262,7 @@
         </section>
 
     </footer>
+
 </body>
 
 </html>
