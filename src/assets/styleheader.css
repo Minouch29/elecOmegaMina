@@ -99,5 +99,6 @@ nav > ul li:hover .subMenu{
 nav li #logo{
     width: 80px;
     height: 80px;
+    border:2px #FFCC00 outset ;  
     
 }
