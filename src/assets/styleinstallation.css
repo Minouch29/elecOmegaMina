@@ -56,6 +56,12 @@ img:hover {
   margin-left: auto;
 
 }
+/*Page mentions légales**/
+.pageMentionLégale{
+  text-align: justify;
+  margin-right: 100px;
+  margin-left:100px
+}
 /**
 medias querys*/
 @media screen and (max-width:576px){
