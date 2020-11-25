@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang='fr'>
+
+<head>
+    <meta charset="utf-8">
+    <title>elecOmegaReservations</title>
+
+    <link href="./assets/style.css" rel="stylesheet">
+    <link href="./assets/styleheader.css" rel="stylesheet">
+    <link href="./assets/styleinstallation.css" rel="stylesheet">
+
+    <!--load icomostyle-->
+    <link href="./assets/styleicone.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <main>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#">Accueil</a></li>
+                    <li class="dropMenu">
+                        Prestations
+                        <!--sous-menu-->
+                        <ul class="subMenu">
+                            <li><a href="#">Installations</a></li>
+                            <li><a href="#">Dépannage</a></li>
+                            <li><a href="#">Maintenance</a></li>
+                        </ul>
+                    </li>
+                    <li><img id="logo" src="./images/logo.jpeg" alt="Logo ElecOmega"></li>
+                    <li><a href="#">Réservations</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="title">
+                <h1>Elec </h1>
+                <h2>Réservations</h2>
+            </div>
+            <section>
+                <div id="booking" class="section">
+                    <div class="section-center">
+                        <div class="container">
+                            <div class="row">
+                                <div class="booking-form">
+                                    <div class="form-header">
+                                        <h1>Faites votre réservation</h1>
+                                    </div>
+                                    <form>
+                                        <div class="form-group"> <input class="form-control" type="text"
+                                                placeholder="Country, ZIP, city..."> <span
+                                                class="form-label">Destination</span> </div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="form-group"> <input class="form-control" type="date"
+                                                        required> <span class="form-label">Check In</span> </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group"> <input class="form-control" type="date"
+                                                        required> <span class="form-label">Check out</span> </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <div class="form-group"> <select class="form-control" required>
+                                                        <option value="" selected hidden>no of rooms</option>
+                                                        <option>1</option>
+                                                        <option>2</option>
+                                                        <option>3</option>
+                                                    </select> <span class="select-arrow"></span> <span
+                                                        class="form-label">Rooms</span> </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="form-group"> <select class="form-control" required>
+                                                        <option value="" selected hidden>no of adults</option>
+                                                        <option>1</option>
+                                                        <option>2</option>
+                                                        <option>3</option>
+                                                    </select> <span class="select-arrow"></span> <span
+                                                        class="form-label">Adults</span> </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="form-group"> <select class="form-control" required>
+                                                        <option value="" selected hidden>no of children</option>
+                                                        <option>0</option>
+                                                        <option>1</option>
+                                                        <option>2</option>
+                                                    </select> <span class="select-arrow"></span> <span
+                                                        class="form-label">Children</span> </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="form-group"> <input class="form-control" type="email"
+                                                        placeholder="Enter your Email"> <span
+                                                        class="form-label">Email</span> </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group"> <input class="form-control" type="tel"
+                                                        placeholder="Enter you Phone"> <span
+                                                        class="form-label">Phone</span> </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-btn"> <button class="submit-btn">Book Now</button> </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+        </header>
+        <footer>
+            <section class="container">
+
+                <div class="dsplay">
+                    <img class="logo" src="./images/logo.jpeg" alt="logo">
+                </div>
+
+
+
+                <div class="dsplay">
+
+
+                    <ul class="justify">
+                        <li>
+                            <p class="patron">Kamel RGUIG</p>
+                        </li>
+                        <li>
+                            <p>INFORMATIONS</p>
+                        </li>
+                        <li>
+                            <a href="contact@elec-ohm.fr" title="mailclient">
+                                <span class="icon-mail2">contact@elec-ohm.fr</span>
+                            </a>
+
+                        </li><br>
+                        <li>
+                            <a href="07-81-13-33-94" title="telclient">
+                                <span class="icon-phone">07-81-13-33-94</span>
+                            </a>
+
+                        </li>
+                    </ul>
+
+
+                </div>
+
+                <div class="dsplay">
+
+                    <ul class="justify">
+
+
+                        <li>
+                            <a href="accueil.html"><span class="icon-circle-right"></span>Accueil</a>
+                        </li>
+
+                        <select>
+                            <p><span class="icon-circle-right"></span>Prestations</p>
+
+                            <option>
+                                <a href="installations.html"><span class="icon-circle-right"></span> Installations</a>
+                            </option>
+                            <option>
+                                <a href="maintenance.html"><span class="icon-circle-right"></span> Maintenance</a>
+                            </option>
+                            <option>
+                                <a href="depannage.html"><span class="icon-circle-right"></span> Dépannage</a>
+                            </option>
+
+
+
+                        </select>
+
+                        <li>
+                            <a href="reservation.html"><span class="icon-circle-right"></span>Réservation</a>
+                        </li>
+
+                        <li>
+                            <a href="contact.html"><span class="icon-circle-right"></span>Contact</a>
+                        </li>
+
+                        <li>
+                            <a href="mentionLegales.html"><span class="icon-circle-right"></span>Mention Légales</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+                <div class="dsplay">
+
+                    <ul>
+
+                        <li>
+                            <p>suivez-nous !!</p>
+                        </li>
+
+                        <li class="dsplay">
+                            <a href="#" title="lien facebook">
+                                <span class="icon-facebook"></span>
+                            </a>
+                        </li>
+
+                    </ul>
+
+            </section>
+
+            <section>
+                <p class="copyright">Copyright © .2021</p>
+            </section>
+
+        </footer>
