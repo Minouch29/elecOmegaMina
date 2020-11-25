@@ -60,12 +60,25 @@ img:hover {
   margin-right: 100px;
   margin-left:100px
 }
+/**media querys */
+
+@media screen and (min-width:576px){
+  #photos > div {
+    display:inline-block;
+    position:relative; 
+    height: auto;
+  }
+
+  img {
+    border:2px #FFCC00 outset ;
+    border-radius: 10px;
+    padding: 20px;
+    width: 50px;
+    height: 50px; 
+  }
 
 
 
-  
 
 
-
-
-
+}
