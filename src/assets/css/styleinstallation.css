@@ -1,0 +1,143 @@
+
+body
+{
+  text-align: center;
+}
+
+#global
+{
+  margin: 0 auto;
+  width: 200px;
+}
+
+img {
+  border:2px #FFCC00 outset ;
+  border-radius: 10px;
+  padding: 20px;
+  width: 200px;
+  height: 150px; 
+}
+
+img:hover {
+  transform: scaleX(-1);
+}
+
+/**style button**/
+button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #FFCC00;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 12px;
+  padding: 10px 24px;
+  width: auto;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+button:hover span {
+  padding-right: 25px;
+}
+
+button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.photos > p {
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  height:20px;
+  margin-top:10px;
+  margin-bottom: 20px;
+
+}
+
+.photos > div {
+  display:inline-block;
+  position: relative;
+  margin-top:30px;
+  margin-left:40px;
+}
+
+.center{
+  text-align: center;
+}
+
+
+.description{
+  text-align: center;
+  background-color:#FFCC00;
+  border-radius: 10px;
+  color:white;
+  width: 60%;
+  height:100px;
+  margin-left: auto;
+
+}
+
+/*Page mentions légales**/
+.pageMentionLégale{
+  text-align: justify;
+  margin-right: 100px;
+  margin-left:100px
+}
+/**media querys */
+
+@media screen and (max-width:1024px){
+   section{
+     height:auto;
+   }
+  .photos > div {
+    display:inline-block;
+    position:relative; 
+    height: auto;
+  }
+
+  .photos > p {
+    margin-bottom: 20px;
+    margin-top:20px ;
+    
+  }
+
+  img {
+    border:2px #FFCC00 outset ;
+    border-radius: 10px;
+    padding: 20px;
+    height: 50px;
+    width: 50px; 
+  }
+
+  .description{
+    text-align: center;
+    box-shadow: 3px 5px #FFCC00;
+    background-color: #f8f5f2;
+    border-radius: 10px;
+    color:rgb(15, 15, 15);
+    width: 60%;
+    height:100px;
+    margin-left: auto;
+    size: 3em;
+  }
+
+}

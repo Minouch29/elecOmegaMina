@@ -1,0 +1,45 @@
+:root{
+    --yellow: #FFCC00;
+    --grey: #999999;
+ }
+ 
+ body{
+    width: 100%;
+ }
+ img {
+    border-radius: 5px;
+    padding: 20px;
+    width: 50%;
+    height:200px;
+    margin-left:100px;
+    margin-right:20px;
+    margin-top:20px;
+    margin-bottom:20px ;
+    }
+    
+    img:hover {
+    transform: scaleX(-1);
+    }
+ 
+ .box{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-gap: 10px 2em;
+    justify-content: center;
+    margin-top: 20px;
+
+ }
+
+ .form{
+     margin-top: 20px;
+     border:2px #FFCC00 outset ;
+     text-align: center;
+
+ }
+  .description{
+    margin-top: 20px;
+    border:2px #FFCC00 outset ;
+    text-align: center;
+
+  }

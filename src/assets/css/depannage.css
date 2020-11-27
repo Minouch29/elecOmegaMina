@@ -44,8 +44,9 @@ img {
     .title{
       font-size: 20px;
     }
+
     img {
-      border:2px #FFCC00 outset ;
+      border:2px #9999 outset ;
       border-radius: 10px;
       padding: 20px;
       width: 50px;
@@ -54,7 +55,10 @@ img {
     #photos{
       display:inline;
     }
-   
+    section.box{
+      background-color: #FFCC00;
+
+    }
     .description{
     height:auto;
     width: 75%;

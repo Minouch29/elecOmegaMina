@@ -1,0 +1,197 @@
+:root{
+   --yellow: #FFCC00;
+   --grey: #999999;
+}
+
+body{
+   width: 100%;
+}
+
+.container{
+   width: 90%;
+   margin: auto;
+}
+
+.container p{
+   padding: 5px;
+   margin: auto;
+   width: 80%;
+   text-align: center;
+   font-size: 1.2em;
+   font-weight: bold;
+}
+
+.container h2{
+   text-align: center;
+   font-size: 2em;
+   text-transform: uppercase;
+   margin-top: 100px;
+}
+
+.presentation{
+   display: flex;
+   margin: 50px;
+}
+
+.presentation h2{
+   margin-top: 30px;
+}
+
+.presentation img{
+   width: 550px;
+   height: 500px;
+}
+
+.prestations{
+   display: flex;
+   justify-content: space-around;
+   background-color: var(--yellow);
+   padding: 20px;
+}
+
+.prestations img{
+   width: 200px; 
+   height: auto;
+   transition: .3s ease-in-out !important;
+}
+
+/*arrondi l'image au survol*/
+.prestations img:hover{
+   width: 200px;
+   height: 200px;
+   border-radius: 50%;
+}
+
+a{
+   text-decoration: none;
+}
+
+figcaption{
+   text-align: center;
+   color: black;
+   font-weight: bold;
+}
+
+.engagements{
+   display: flex;
+   justify-content: space-around; 
+   padding: 20px;
+}
+
+.engagements figure img{
+   padding: 30px;
+   border: var(--grey)solid 2px;
+   border-radius: 100px;
+}
+
+.engagements div{
+    border: 3px var(--yellow) solid;
+    border-radius: 30px;
+    width: 30%;
+    text-align: center;
+}
+
+.informations{
+   display: flex;
+   justify-content: space-around;
+   background-color: var(--yellow);
+}
+
+.informations a{
+   color: black;
+}
+
+.informations a:hover{
+   font-weight: bold;
+   color: white;
+}
+
+.address{
+   margin-top: 50px;
+}
+
+.address p{
+   width: 100%;
+   font-size: 1em;
+}
+
+/*---------------------*\
+    @MEDIA
+\*---------------------*/
+@media screen and (max-width: 1024px){
+
+   .container{
+      width: 100%;
+      margin: auto;
+   }
+
+   .container p{
+      font-size: 0.8em;
+   }
+
+   .container h2{
+      text-align: center;
+      font-size: 1.5em;
+      text-transform: uppercase;
+      margin-top: 0;
+   }
+
+   .presentation{
+      display: block;
+      margin: 10px;
+   }
+
+   .presentation img{
+      display: block;
+      width: 300px;
+      height: 300px;
+      margin-top: 20px;
+      margin-left: auto;
+      margin-right: auto;
+   }
+
+   .prestations{
+      display: block;
+      justify-content: none;
+      background-color: transparent;
+      padding: 20px;
+   }
+   
+   .prestations img{
+      display: block;
+      margin: 10px auto 10px auto;
+      padding: 10px;
+      width: 200px; 
+      height: auto;
+      transition: none;
+      border: 2px solid var(--yellow);
+      border-radius: 30px;
+   }
+
+   .engagements{
+      display: block;
+      justify-content: none; 
+      padding: 20px;
+   }
+
+   .engagements figure img{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 30px;
+      border: var(--grey)solid 2px;
+      border-radius: 100px;
+   }
+   
+   .engagements div{
+      margin: 10px auto 10px auto;
+       border: 2px var(--yellow) solid;
+       border-radius: 30px;
+       width: 100%;
+       text-align: center;
+   }
+}
+
+
+
+
