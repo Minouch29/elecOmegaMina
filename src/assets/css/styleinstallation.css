@@ -10,6 +10,28 @@ body
   width: 200px;
 }
 
+.title{
+  padding-top: 200px;
+  height: 300px;
+  text-transform: uppercase;
+ 
+  background:url("./images/bgd.jpg") no-repeat;
+  background-size: 100%;
+}
+
+.title h1{
+  margin: 0;
+  top: 180px;
+  text-align: center;
+  font-size: 80px;
+  color: white;
+}
+
+.title h1::after{
+  content: "Ω";
+  color: var(--yellow);
+}
+
 img {
   border:2px #FFCC00 outset ;
   border-radius: 10px;
@@ -69,7 +91,7 @@ button:hover span:after {
   font-weight: bold;
   height:20px;
   margin-top:10px;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 
 }
 
@@ -78,6 +100,7 @@ button:hover span:after {
   position: relative;
   margin-top:30px;
   margin-left:40px;
+  margin-bottom: 30px;
 }
 
 .center{
@@ -115,8 +138,9 @@ button:hover span:after {
   }
 
   .photos > p {
-    margin-bottom: 20px;
-    margin-top:20px ;
+    margin-bottom:20px;
+    margin-top:20px;
+    font-size: 1.5em;
     
   }
 

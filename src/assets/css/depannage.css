@@ -1,19 +1,15 @@
 
-.box {
-  border:2px #FFCC00 outset ;
-  display: grid;
-  grid-template-columns: 1fr 1fr ;
-  grid-gap: 10px 2em;
-  justify-content: center;
-    
-  }
-
+body{
+  width: 100%;
+  margin: 0 auto;
+}
 img {
+  border: 1px solid #ddd;
   border-radius: 5px;
   padding: 20px;
   width: 50%;
   height:200px;
-  margin-left: 50px;
+  margin-left: 150px;
   margin-top:20px;
   margin-bottom:20px ;
   }
@@ -24,45 +20,120 @@ img {
 
 
   /**classes*/
-  .description{
-    text-align: center;
-    background-color:#FFCC00;
-    border-radius: 5px;
+
+.title{
+  padding-top: 200px;
+  height: 300px;
+  text-transform: uppercase;
+  color:black;
+  background-image:url("./fontTitreElecOmega.jpg");
+  background-size: 100%;
+}
+
+.title h1{
+  margin: 0;
+  top: 180px;
+  text-align: center;
+  font-size: 80px;
+}
+
+.title h1::after{
+  content: "Ω";
+  color: var(--yellow);
+}
+
+ .container{
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  grid-gap: 10px 2em;
+  justify-content: center;
+      
+}
+    
+.description{
+  background-color: #FFCC00;
+  margin-top: 150px;
+  border-radius:5px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  height: auto;
+  
+  }
+
+  .description >  p{
     color:white;
-    width: 60%;
-    height:200px;
-    margin-left: 50px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
     margin-top:30px;
-    margin-bottom:30px;
     
   }
+ 
+
+  .section-image{
+    align-items: center;
+    
+  }
+
+  .btn{
+    background-color: #FFCC00;
+    border:none;
+    border-radius:8px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    align-items: center;
+    margin-left:300px;
+    margin-bottom: 20px;
+  }
+
+  .btn:hover{
+    background-color: #999999;
+    color: white;
+  }
+
+
   /**Médias querys */
 
-  
-
-  @media screen and (max-width:576px){
+  @media screen and (max-width:1024px){
+   
     .title{
       font-size: 20px;
     }
 
-    img {
-      border:2px #9999 outset ;
-      border-radius: 10px;
-      padding: 20px;
-      width: 50px;
-       
+    .container{
+      display: grid;
+      height: auto;
+      grid-template-columns: 1fr;
+      width: 100%;
     } 
-    #photos{
-      display:inline;
+  
+    img {
+      border:2px #c50d2f outset ;
+      border-radius: 10px;
+      padding: 40px;
+      width:45%; 
+      height: auto;
+      margin-left:80px;
+      margin-right: 80px;
+    } 
+    
+    .btn{
+      margin-left:130px;
     }
-    section.box{
-      background-color: #FFCC00;
-
-    }
+    
     .description{
     height:auto;
-    width: 75%;
-    font-size:14px; 
-  }
+    width: auto;
+    font-size:13px; 
+    background-color: #c50d2f;
+
+    margin-top:5px;
+    margin-left: 10px;
+    margin-right:10px;
+    }
   
-  }
+  } 
