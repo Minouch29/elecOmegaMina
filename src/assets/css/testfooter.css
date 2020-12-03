@@ -94,7 +94,7 @@ a{
   
   .dropdown-content a:hover {color:#FFCC00;}
   
-  .prestationFooter:hover .dropdown-content {display: block;}
+  .dropdown:hover .dropdown-content {display: block;}
   
 /* ajoute apres le texte de l'onglet un ▼ de 15px de taille*/
 
@@ -141,6 +141,3 @@ a{
     
 
 }
-
-
-  
