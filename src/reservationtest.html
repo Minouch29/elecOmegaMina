@@ -13,6 +13,8 @@
     <link href="./assets/css/styleReservation.css" rel="stylesheet">
     <!--load icomostyle-->
     <link href="./assets/css/styleicone.css" rel="stylesheet">
+    <script src="reservation.js" async></script>
+
 
 </head>
 
@@ -36,40 +38,73 @@
                     <li><a href="#">Contact</a></li>
                 </ul>
             </nav>
-            
+
         </header>
         <section class="box">
-           
-            
-            <div class="polaroid">
+
+            <div class="polaroid polaroidStyle ">
                 <img src="./assets/css/images/depannage1.jpg" alt="image depannage et fusible" style="width:100%">
                 <div class="container">
-                <h3>Dépannage</h3>
-                <p class="description"> ElecOmega s’engage à améliorer votre confort au quotidien et vous propose le
-                    diagnostic et le dépannage de vos installations électriques et de vos portails.<br>
+                    <h3>Dépannage</h3>
+                    <p class="description"> ElecOmega s’engage à améliorer votre confort au quotidien et vous propose le
+                        diagnostic et le dépannage de vos installations électriques et de vos portails.<br>
 
-                    Vous avez-la possibilité de réservez un creneau en ligne qui vous sera confirmer par un technicien<br>
-                    diagnostic et le dépannage de vos installations électriques et de vos portails.
-                    
-                    Pour toute demande complémentaire concernant une intervention en dépannage,vous<br>
-                    vous avez la possibilité de nous contacter en cliquant sur le bouton ci.
-                </p><br>
+                        Vous avez-la possibilité de réservez un creneau en ligne qui vous sera confirmer par un
+                        technicien<br>
+                        diagnostic et le dépannage de vos installations électriques et de vos portails.
+
+                        Pour toute demande complémentaire concernant une intervention en dépannage,vous<br>
+                        vous avez la possibilité de nous contacter en cliquant sur le bouton ci.
+                    </p><br>
                 </div>
             </div>
-        <!--Ici le formulaire-->
+            <div class="polaroid2 polaroidStyle ">
+                <img src="./assets/css/images/elec1.jpg" alt="image depannage et fusible" style="width:100%">
+                <div class="container">
+                    <h3>Installation</h3>
+                    <p class="description"> ElecOmega s’engage à améliorer votre confort au quotidien et vous propose le
+                        diagnostic et le dépannage de vos installations électriques et de vos portails.<br>
+
+                        Vous avez-la possibilité de réservez un creneau en ligne qui vous sera confirmer par un
+                        technicien<br>
+                        diagnostic et le dépannage de vos installations électriques et de vos portails.
+
+                        Pour toute demande complémentaire concernant une intervention en dépannage,vous<br>
+                        vous avez la possibilité de nous contacter en cliquant sur le bouton ci.
+                    </p><br>
+                </div>
+            </div>
+            <div class="polaroid3 polaroidStyle ">
+                <img src="./assets/css/images/maintennance1.jpg" alt="image depannage et fusible" style="width:100%">
+                <div class="container">
+                    <h3>Mainteance</h3>
+                    <p class="description"> ElecOmega s’engage à améliorer votre confort au quotidien et vous propose le
+                        diagnostic et le dépannage de vos installations électriques et de vos portails.<br>
+
+                        Vous avez-la possibilité de réservez un creneau en ligne qui vous sera confirmer par un
+                        technicien<br>
+                        diagnostic et le dépannage de vos installations électriques et de vos portails.
+
+                        Pour toute demande complémentaire concernant une intervention en dépannage,vous<br>
+                        vous avez la possibilité de nous contacter en cliquant sur le bouton ci.
+                    </p><br>
+                </div>
+            </div>
+            <!--Ici le formulaire-->
             <div class="form">
-                
+
                 <form>
                     <div class="row">
                         <div class="col-25">
                             <label for="Prestations">Prestations:</label>
-                    
                         </div>
+
                         <div class="col-75">
-                            <select id="prestations" name="prestations">
-                                <option value="installations">Installations</option>
-                                <option value="maintenance">Maintenance</option>
-                                <option value="dépannage">Dépannage</option>
+                            <select class="selecValue" name="prestations">
+                                <option value="">choix de la prestation</option>
+                                <option value="1">Installations</option>
+                                <option value="2">Maintenance</option>
+                                <option value="3">Dépannage</option>
                             </select>
                         </div>
                     </div>
@@ -100,7 +135,7 @@
                            $" required>
                         </div>
                     </div>
-                    
+
                     <div class="row">
                         <div class="col-25">
                             <label for="precisions">Précisions:</label>
