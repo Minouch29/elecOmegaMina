@@ -21,6 +21,17 @@ img:hover {
    background-attachment: fixed;
    margin-top: 30px;
  }
+ .polaroid{
+   display:none;
+ }
+ .polaroid2{
+   display: none;
+
+ }
+ .polaroid3{
+   display: none;
+ }
+ 
 
  /*STYLE FORMULAIRE*/
  * {
@@ -115,7 +126,7 @@ img:hover {
  }
  
  /**Style section description*/
- div.polaroid {
+ .polaroidStyle {
    width: 80%;
    background-color: white;
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -125,6 +136,7 @@ img:hover {
    border-radius:8px;
  }
  
+
  div.container {
    text-align: center;
    padding: 10px 20px;
